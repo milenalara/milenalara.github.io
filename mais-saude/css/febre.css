@@ -1,0 +1,31 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    margin-top: 50px;
+}
+.caixatexto{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    width: 350px;
+            }
+a.btn.btn-primary{
+    margin-top: 20px;
+    margin-left: 280px;
+    background-color: grey;
+    color: white;
+    padding: 6px;
+    border-radius: 9px;
+}
+
+a img{
+    width: 40px;
+}
+header{
+    margin-left: 20px;
+}
+footer{
+    margin-top: 45%;
+}

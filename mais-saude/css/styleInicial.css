@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.cores {
+  color: #D4D4D4;
+  color: #000000;
+  color: #3A8774;
+  color: #4EB59B;
+  color: #78D8C0;
+  color: white;
+}
+
+.link-menu{
+  text-align: center;
+}
+.menu-card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.menu-card h5 {
+  color: #3A8774;
+}
+
+/* .menu-card p {
+  color: #D4D4D4;
+} */
+
+.btn-card {
+  background: #3A8774;
+  border: #3A8774
+}
+
+.btn-card:hover {
+  background: #4EB59B;
+  border: #4EB59B;
+}
+
+.btn-card-outline {
+  background: white;
+  border: 1px solid#3A8774;
+  color:#3A8774;
+}
+
+.btn-card-outline:hover {
+  background: #e3e3e3;;
+  border:  1px solid#3A8774; 
+  color: #3A8774; 
+}
+
+.header-color {
+  background-color: #3A8774;  
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+.footer-site {
+  text-align: center;
+  padding: 10px 0 1px 0;
+  background-color: #D4D4D4;
+  color: #808080;
+  font-size: 0.8rem;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+.gradient-custom-2 {
+/* fallback for old browsers */
+  background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+  height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+}
+}

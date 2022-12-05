@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header,
+navbar-nav {
+    height: 13%;
+    z-index: 5;
+}
+
+main {
+    margin: 20px auto;
+    min-height: 80%;
+}
+
+main h2 {
+    margin-left: 4rem;
+}
+
+.cores {
+    color: #D4D4D4;
+    color: #000000;
+    color: #3A8774;
+    color: #4EB59B;
+    color: #78D8C0;
+    color: white;
+}
+
+
+.bem-estar {
+    z-index: -1;
+}
+
+.divider {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.link-menu {
+    text-align: center;
+}
+
+.menu-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 16rem;
+    z-index: 1;
+}
+
+.menu-card h5 {
+    color: #3A8774;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+}
+
+.btn-card {
+    background: #3A8774;
+    border: #3A8774
+}
+
+.btn-card:hover {
+    background: #4EB59B;
+    border: #4EB59B;
+}
+
+.btn-card-outline {
+    background: white;
+    border: 1px solid#3A8774;
+    color: #3A8774;
+}
+
+.btn-card-outline:hover {
+    background: #e3e3e3;
+    ;
+    border: 1px solid#3A8774;
+    color: #3A8774;
+}
+
+.header-color {
+    background-color: #3A8774;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 12%;
+    padding: 10px 0 1px 0;
+    background-color: #D4D4D4;
+    color: #808080;
+    font-size: 0.8rem;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+/* smartphone */
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    main h2 {
+        margin-left: 1rem;
+    }
+
+    .menu-card {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        width: 85vw;
+    }
+}
+
+/* tablets e laptops */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
+
+    main h2 {
+        margin-left: 1rem;
+    }
+
+    .menu-card {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        width: 100vw;
+    }
+}
+
+/* desktops */
+@media screen and (min-width: 1025px) and (max-width: 1400px) {}

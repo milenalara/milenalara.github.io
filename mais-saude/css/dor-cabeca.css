@@ -1,0 +1,16 @@
+.input-intensidade {
+    display: flex;
+}
+
+.input-intensidade p {
+    margin: 0 10px;
+}
+
+.content-dor {
+    text-align: center;
+}
+
+.div-group {
+    padding: 0.5rem;
+    margin: auto;
+}

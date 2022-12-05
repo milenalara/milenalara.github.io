@@ -1,0 +1,71 @@
+  body {
+    background: #ffffff;
+  }
+
+  .header {
+    padding: 32px 0 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    padding: 48px 0 24px;
+    border-bottom: 1px solid #e1e8ed;
+  }
+
+  .retorna {
+    padding: 200px;
+    text-align: center;
+  }
+
+  .btn-1 {
+    background-color: rgb(0, 150, 0);
+    transition: transform 0.5s;
+    border-radius: 50%;
+  }
+
+  .btn-2 {
+    background-color: orange;
+    transition: transform 0.5s;
+    border-radius: 50%;
+  }
+
+  .btn-3 {
+    background-color: red;
+    transition: transform 0.5s;
+    border-radius: 50%;
+  }
+
+  .btn-1:hover {
+    background-color: greenyellow;
+    box-shadow: 0px 0px 20px rgb(173, 255, 47);
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+  }
+
+  .btn-2:hover {
+    background-color: rgb(255, 196, 87);
+    box-shadow: 0px 0px 20px rgb(255, 178, 34);
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+  }
+
+  .btn-3:hover {
+    background-color: rgb(255, 77, 77);
+    box-shadow: 0px 0px 20px rgb(255, 28, 28);
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+  }
+
+  section#smiles>a>img {
+    width: 50px;
+    margin: 10px;
+  }
+
+  #smiles{
+    text-align: center;
+    margin: auto;
+  }
+
+  #smiles a{
+    margin-top: 1rem;
+  }

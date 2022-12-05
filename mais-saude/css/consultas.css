@@ -1,0 +1,44 @@
+.header-text {
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 10px;
+}
+
+.conteudo {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+}
+
+.btn-add {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    color: #4EB59B;
+}
+
+.btn-add img {
+    height: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.btn-primario {
+    margin-top: 10px;
+    width: 20%;
+    background: #3A8774;
+    border: #3A8774
+}
+
+.btn-primario:hover {
+    background: #4EB59B;
+    border: #4EB59B;
+}
+
+.txt-secondario {
+    color: #3A8774;
+    font-weight: 500;
+}

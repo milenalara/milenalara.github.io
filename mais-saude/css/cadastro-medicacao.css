@@ -1,0 +1,38 @@
+.input-med{
+    display: block;
+}
+
+.form-insert-medication{
+    margin: auto;
+}
+
+.section-insert-medication h2{
+    margin-left: 0.5rem;
+    text-align: center;
+}
+
+.inline-div{
+    display: inline-block;
+}
+
+.button-send{
+    margin-top: 1rem;
+}
+
+.div-group{
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.form-med{
+    text-align: center;
+}
+
+.h2-add-med{
+    margin-top: 1rem;
+}
+
+.section-list-med{
+    margin-top: 70px;
+    text-align: center;
+}

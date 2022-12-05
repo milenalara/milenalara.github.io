@@ -1,0 +1,58 @@
+[
+    {
+        "nome": "Dr. João Lima",
+        "especialidade": "Dermatologista",
+        "telefone": "(31) 99875-4582",
+        "email": "JoaoLima@gmail.com",
+        "endereco": "Lifecenter"
+    },
+    {
+        "nome": "Dra. Alessandra Neto",
+        "especialidade": "Ortopedista",
+        "telefone": "(31) 98758-8274",
+        "email": "AlessandraNeto@gmail.com",
+        "endereco": "IOT BH Instituto de Ortopedia e Traumatologia de Belo Horizonte"
+    },
+    {
+        "nome": "Dra. Karol de Souza",
+        "especialidade": "Clínica Médica",
+        "telefone": "(31) 90457-0475",
+        "email": "KarolSouza@gmail.com",
+        "endereco": "Évora Medical Clinic"
+    },
+    {
+        "nome": "Dr. Lucas Gabriel",
+        "especialidade": "Psicólogo",
+        "telefone": "(31) 99586-8577",
+        "email": "LucasGabriel@gmail.com",
+        "endereco": "Clínica Psicológica Saúde Emocional"
+    },
+    {
+        "nome": "Dr. André Lobo",
+        "especialidade": "Cirúrgico",
+        "telefone": "(31) 99857-2486",
+        "email": "AndreLobo@gmail.com",
+        "endereco": "Lifecenter"
+    },
+    {
+        "nome": "Dr. Guilherme Fonseca",
+        "especialidade": "Dentista",
+        "telefone": "(31) 99785-5497",
+        "email": "GuilhermeFonseca@gmail.com",
+        "endereco": "Rede Odonto Eldorado"
+    },
+    {
+        "nome": "Dr. Ornaldo Brendo",
+        "especialidade": "Clínica Médica",
+        "telefone": "(31) 99875-7550",
+        "email": "OrnaldoBrendo@gmail.com",
+        "endereco":  "Évora Medical Clinic"
+    },
+    {
+        "nome": "Dr. Brendo Mouro",
+        "especialidade": "Ortopedista",
+        "telefone": "(31) 98568-6854",
+        "email": "BrendoMouro@gmail.com",
+        "endereco": "Hospital Santa Helena"
+    }
+]

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>+Saúde</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/doresCorpo.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg header-color">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
+				</a>
+				<button class="navbar-toggler white-button" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon white-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link link-menu" href="./index.html">Home</a>
+						<a class="nav-link link-menu" href="./medicacoes.html">Medicações</a>
+						<a class="nav-link link-menu" href="./consultas.html">Consultas</a>
+						<a class="nav-link link-menu" href="./exames.html">Exames</a>
+						<a class="nav-link link-menu" href="./bem-estar.html">Meu bem-estar</a>
+						<a class="nav-link link-menu" href="./medicos">Meus médicos</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div>
+			<img src="./img/icone-seta-voltar.png" class="icon">
+		</div>
+		<div class="container">
+			<div class="row content">
+				<form class="content-form">
+					<div class="col-sm-6 pergunta">
+						<h2>Onde é a dor?</h2>
+						<select class="form-select local-dor" aria-label="Selecione o local da dor" id="local-dor">
+							<option selected>Selecione o local do corpo</option>
+							<option value="1">antebraço direito</option>
+							<option value="2">antebraço esquerdo</option>
+							<option value="3">bacia</option>
+							<option value="4">braço direito</option>
+							<option value="5">braço esquerdo</option>
+							<option value="6">costas inferior</option>
+							<option value="7">costas médio</option>
+							<option value="8">costas superior</option>
+							<option value="9">cotovelo direito</option>
+							<option value="10">cotovelo esquerdo</option>
+							<option value="11">joelho direito</option>
+							<option value="12">joelho esquerdo</option>
+							<option value="13">mão direita</option>
+							<option value="14">mão esquerda</option>
+							<option value="15">ombro direito</option>
+							<option value="16">ombro esquerdo</option>
+							<option value="17">pé direito</option>
+							<option value="18">pé esquerdo</option>
+							<option value="19">perna direita</option>
+							<option value="20">perna esquerda</option>
+							<option value="21">pescoço</option>
+							<option value="22">punho direito</option>
+							<option value="23">punho esquerdo</option>
+							<option value="24">região cervical</option>
+							<option value="25">tornozelo direito</option>
+							<option value="26">tornozelo esquerdo</option>
+						</select>
+					</div>
+					<div class="col-sm-6 pergunta">
+						<h2>Qual é a intensidade da dor?</h2>
+						<div class="input-intensidade">
+							<p>1</p>
+							<input type="range" class="form-range" min="1" max="5" step="1" id="intensidade-dor">
+							<p>5</p>
+						</div>
+					</div>
+					<div class="col-sm-6 pergunta">
+						<button type="submit" class="btn btn-primary btn-primario" id="btn-enviar">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright - 2022</p>
+		<p>Disciplina de Trabalho Interdisciplinar: Aplicações Web - PUC Minas
+		</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+	<script src="./js/doresCorpo.js"></script>
+</body>
+
+</html>
