@@ -14,8 +14,17 @@ function guardarDados() {
     dorCorpo.push(dados);
 
     localStorage.setItem("dores", JSON.stringify(dorCorpo));
-    alert("Dados salvos com sucesso");
+    // alert("Dados salvos com sucesso");
+
 }
 
+function redirecionarHome() {
+    window.location.href = 'home.html';
+}
 
 btnEnviar.addEventListener("click", guardarDados);
+
+let dores = localStorage.getItem("dores")
+if (dores) {
+    redirecionarHome()
+}

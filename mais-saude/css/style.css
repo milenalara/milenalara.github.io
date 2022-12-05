@@ -77,7 +77,15 @@ main {
     height: 20px;
 }
 
-.accordion {
+.tick-icon {
+    width: .8em;
+}
+
+.active-panel {
+    display: block;
+}
+
+.accordion-header {
     display: flex;
     justify-content: space-between;
     color: #3A8774;
