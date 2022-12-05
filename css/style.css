@@ -21,9 +21,6 @@ main {
     min-height: 80%;
 }
 
-main h2 {
-    margin-left: 4rem;
-}
 
 .cores {
     color: #D4D4D4;
@@ -35,8 +32,56 @@ main h2 {
 }
 
 
-.bem-estar {
+.bem-estar,
+.cards-section {
+    margin: 0 4rem;
     z-index: -1;
+}
+
+.bem-estar-th {
+    width: 15%;
+}
+
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active {
+    background-color: #f2f2f2;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
+#down-arrow-icon {
+    height: 20px;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    color: #3A8774;
+    font-weight: 500;
 }
 
 .divider {
@@ -125,8 +170,13 @@ footer p {
     .menu-card {
         margin-top: 5px;
         margin-bottom: 5px;
-        margin-left: 5px;
-        width: 85vw;
+
+    }
+
+    .bem-estar,
+    .cards-section {
+        margin: 0;
+        z-index: -1;
     }
 }
 

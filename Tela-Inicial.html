@@ -95,17 +95,22 @@
 	<script>
 		function login() {
 
-			$.getJSON("dados/Contas.json", function (data) {
-				json = data;
-
-				if (document.getElementById("Username").value === json[0].username && document.getElementById("Password").value === json[0].password) {
-					window.location.href = 'comoesta.html';
-				} else if (document.getElementById("Password").value !== json[0].password) {
-					alert("Senha e/ou Username Incorreto!!!!!");
-				} else if (document.getElementById("Username").value !== json[0].username) {
-					alert("Senha e/ou Username Incorreto!!!!!");
+			let mockConta = 
+				{
+					"Username":"admin",
+					"Password":"admin"
 				}
-			});
+
+			console.log(mockConta)
+			
+			const conta = JSON.parse(localStorage.getItem("conta")) || mockConta;
+
+			console.log(conta.Username)
+			if (document.getElementById("Username").value === conta.Username && document.getElementById("Password").value === conta.Password) {
+					window.location.href = 'comoesta.html';
+				} else {
+					alert("Senha e/ou Username Incorreto!!!!!");
+				} 
 		}
 
 
@@ -114,69 +119,3 @@
 </body>
 
 </html>
-
-
-
-<!-- 
-    $.getJSON("dados/Contas.json", function(data) {
-                    var json = data;
-                    
-                    console.log(json[0].username);
-                });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    $.getJSON("json/login.json", function(jsdata) {
-                    json = jsdata;
-                    user = i1.value;
-                    password = i2.value;
-
-                    if (document.getElementById("Username").value == json[user].username && document.getElementById("Password").value == json[user].password){
-                        window.location.href = 'Home.html';
-                    }
-                        
-                })
-
-if (document.getElementById("Username").value == json[0].username && document.getElementById("Password").value == json[0].password){
-                    window.location.href = 'Home.html';
-                }
-
-
-
-            var employees_list; 
-            $.getJSON('url', function(data) { 
-                employees_list = JSON.parse(data); 
-                showAlert(); 
-            }); 
-            function showAlert() { 
-                alert(employees_list[0].employees.education); 
-            } 
-
-
-
-
-
-
-
-
-                <script>
-            function login(){
-
-                if((document.getElementById("Password").value).length === 0  && ((document.getElementById("Username").value).length) === 0){
-                    window.location.href = 'Home.html';
-                }else if((document.getElementById("Password").value).length !== 0  && ((document.getElementById("Username").value).length) !== 0){
-                    alert("Username e Senha Incorreta!!");
-                }else if( (document.getElementById("Password").value).length !== 0){
-                    alert("Senha Incorreta!!");
-                }else if( (document.getElementById("Username").value).length !== 0){
-                    alert("Username Incorreto!!");
-                }
-            }
-        </script>
-            -->
